@@ -8,9 +8,9 @@ L.positionX = "X 위치"
 L.positionY = "Y 위치"
 L.positionExact = "정확한 위치"
 L.positionDesc = "고정기로부터 정확한 위치를 원한다면 상자에 입력하거나 슬라이더를 움직이세요."
---L.width = "Width"
---L.height = "Height"
---L.sizeDesc = "Normally you set the size by dragging the anchor. If you need an exact size you can use this slider or type the value into the box, which has no maximum."
+L.width = "넓이"
+L.height = "높이"
+L.sizeDesc = "기본적으로 앵커를 끌어서 크기를 설정할 수 있습니다. 정확한 크기가 필요한 경우 이 슬라이더를 사용하거나 네모상자 안에 제한없이 값을 입력할 수 있습니다.."
 
 -----------------------------------------------------------------------
 -- AltPower.lua
@@ -20,7 +20,7 @@ L.altPowerTitle = "보조 자원"
 L.toggleDisplayPrint = "디스플레이가 다음에 표시됩니다. 이 우두머리 전투에서 완전히 비활성하려면 우두머리 전투 옵션에서 끄도록 전환해야 합니다."
 L.disabled = "비활성"
 L.disabledDisplayDesc = "디스플레이를 사용하는 모든 모듈에서 디스플레이를 비활성화합니다."
---L.resetAltPowerDesc = "Reset all the options related to AltPower, including the position of the AltPower anchor."
+L.resetAltPowerDesc = "앵커의 위치를 포함한 보조자원과 관련된 모든 옵션을 재설정합니다.."
 
 -----------------------------------------------------------------------
 -- AutoReply.lua
@@ -71,9 +71,9 @@ L.modifierKeyDesc = "지정된 조합 키가 눌려있지 않다면 바가 클�
 L.report = "보고"
 L.reportDesc = "현재 바 상태를 활성화된 그룹 대화에 보고합니다; 인스턴스 대화, 공격대, 파티 또는 일반 대화 중 적절한 채널을 사용합니다."
 L.remove = "제거"
---L.removeBarDesc = "Temporarily removes this bar."
+L.removeBarDesc = "일시적으로 이 바를 제거합니다."
 L.removeOther = "다른 바 제거"
---L.removeOtherBarDesc = "Temporarily removes all other bars (except this one)."
+L.removeOtherBarDesc = "일시적으로 이 바를 제외한 다른 모든 바를 제거합니다."
 
 L.emphasizeAt = "다음에 강조... (초)"
 L.growingUpwards = "위로 확장"
